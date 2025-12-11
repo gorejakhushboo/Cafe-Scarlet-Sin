@@ -1,0 +1,92 @@
+body {
+    background-color: #1a0d0d;
+    color: #f5e1e1;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #2a0e0e;
+    border-bottom: 2px solid #5c1a1a;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #f3c1c1;
+}
+
+header .tagline {
+    color: #dba7a7;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: #f3c1c1;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    transition: 0.3s;
+    border-radius: 6px;
+}
+
+nav a:hover, nav a.active {
+    background-color: #5c1a1a;
+    color: #fff;
+}
+
+.menu-section {
+    padding: 40px 10%;
+}
+
+.menu-section h2 {
+    border-left: 5px solid #b23a3a;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    color: #f8d7d7;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #2a0e0e;
+    border-radius: 12px;
+    padding: 20px;
+    border: 1px solid #5c1a1a;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 15px rgba(255, 120, 120, 0.3);
+}
+
+.menu-item h3 {
+    color: #ffbaba;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 0.95rem;
+    color: #f5dcdc;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #5c1a1a;
+    background-color: #1a0d0d;
+    color: #b37c7c;
+    font-size: 0.9rem;
+}

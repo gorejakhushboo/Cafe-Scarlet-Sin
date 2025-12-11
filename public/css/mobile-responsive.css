@@ -1,0 +1,716 @@
+/* ===== MOBILE RESPONSIVE ENHANCEMENTS ===== */
+
+/* Mobile-First Responsive Design */
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 1.5rem;
+    }
+    
+    .nav-container {
+        padding: 1rem 1.5rem;
+    }
+    
+    .hero-title {
+        font-size: 3.5rem;
+    }
+    
+    .menu-title,
+    .society-title {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.3rem;
+    }
+    
+    .hero-description {
+        font-size: 1rem;
+    }
+    
+    .menu-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    
+    .best-sellers-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    
+    .indulgences-summary {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    /* Header adjustments */
+    .nav-container {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    
+    .nav-menu {
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .nav-link {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+    
+    /* Hero section */
+    .hero {
+        padding: 2rem 1rem;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .hero-description {
+        font-size: 0.95rem;
+        margin-bottom: 2rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .btn-primary,
+    .btn-secondary {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    /* Menu page */
+    .menu-hero {
+        padding: 6rem 0 3rem;
+    }
+    
+    .menu-title {
+        font-size: 2.5rem;
+    }
+    
+    .menu-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .menu-filters {
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+    
+    .filter-btn {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    .menu-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .menu-card {
+        margin: 0 auto;
+        max-width: 400px;
+    }
+    
+    .card-content {
+        padding: 1.5rem;
+    }
+    
+    .card-content h3 {
+        font-size: 1.3rem;
+    }
+    
+    .card-price {
+        font-size: 1.2rem;
+    }
+    
+    /* Society page */
+    .society-hero {
+        padding: 6rem 0 3rem;
+    }
+    
+    .society-title {
+        font-size: 2.5rem;
+    }
+    
+    .society-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .society-description {
+        font-size: 1rem;
+    }
+    
+    .floating-comment {
+        max-width: 250px;
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+    
+    .comment-text {
+        font-size: 0.9rem;
+    }
+    
+    .comment-coffee {
+        font-size: 0.8rem;
+    }
+    
+    .add-comment-section {
+        padding: 2rem;
+    }
+    
+    .add-comment-section h3 {
+        font-size: 1.5rem;
+    }
+    
+    .comment-form textarea {
+        height: 100px;
+        font-size: 0.9rem;
+    }
+    
+    .comment-form select {
+        font-size: 0.9rem;
+    }
+    
+    .submit-comment-btn {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+    
+    .best-sellers-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .best-seller-card {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    .indulgences-summary {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .summary-card {
+        padding: 1.5rem;
+    }
+    
+    .summary-number {
+        font-size: 1.8rem;
+    }
+    
+    /* Audio controls */
+    .audio-controls {
+        right: 1rem;
+        top: 60%;
+    }
+    
+    .audio-toggle {
+        width: 45px;
+        height: 45px;
+    }
+    
+    /* Sin meter */
+    .sin-meter {
+        left: 1rem;
+        width: 150px;
+        padding: 0.8rem;
+    }
+    
+    .sin-meter-label {
+        font-size: 0.8rem;
+    }
+    
+    .sin-meter-text {
+        font-size: 0.7rem;
+    }
+    
+    /* Cart modal */
+    .cart-content {
+        width: 95%;
+        margin: 1rem;
+    }
+    
+    .cart-header {
+        padding: 1.5rem;
+    }
+    
+    .cart-header h3 {
+        font-size: 1.3rem;
+    }
+    
+    .cart-items {
+        padding: 1rem 1.5rem;
+    }
+    
+    .cart-item {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    
+    .cart-item-controls {
+        justify-content: center;
+    }
+    
+    .cart-footer {
+        padding: 1.5rem;
+    }
+    
+    .cart-total {
+        font-size: 1.1rem;
+    }
+    
+    .checkout-btn {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Extra small screens */
+    .container {
+        padding: 0 1rem;
+    }
+    
+    .nav-container {
+        padding: 0.8rem;
+    }
+    
+    .logo {
+        font-size: 1.5rem;
+    }
+    
+    .nav-menu {
+        gap: 0.5rem;
+    }
+    
+    .nav-link {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.8rem;
+    }
+    
+    /* Hero adjustments */
+    .hero {
+        padding: 1.5rem 0.5rem;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .hero-description {
+        font-size: 0.9rem;
+    }
+    
+    .btn-primary,
+    .btn-secondary {
+        padding: 0.7rem 1.2rem;
+        font-size: 0.9rem;
+    }
+    
+    /* Menu adjustments */
+    .menu-hero {
+        padding: 5rem 0 2rem;
+    }
+    
+    .menu-title {
+        font-size: 2rem;
+    }
+    
+    .menu-subtitle {
+        font-size: 1rem;
+    }
+    
+    .menu-filters {
+        gap: 0.3rem;
+    }
+    
+    .filter-btn {
+        padding: 0.5rem 0.8rem;
+        font-size: 0.8rem;
+    }
+    
+    .menu-card {
+        margin: 0;
+        max-width: none;
+    }
+    
+    .card-content {
+        padding: 1.2rem;
+    }
+    
+    .card-content h3 {
+        font-size: 1.2rem;
+    }
+    
+    .card-tagline {
+        font-size: 0.9rem;
+    }
+    
+    .card-price {
+        font-size: 1.1rem;
+    }
+    
+    .claim-btn {
+        padding: 0.7rem 1.2rem;
+        font-size: 0.9rem;
+    }
+    
+    /* Society adjustments */
+    .society-hero {
+        padding: 5rem 0 2rem;
+    }
+    
+    .society-title {
+        font-size: 2rem;
+    }
+    
+    .society-subtitle {
+        font-size: 1rem;
+    }
+    
+    .society-description {
+        font-size: 0.9rem;
+    }
+    
+    .floating-comment {
+        max-width: 200px;
+        padding: 0.8rem;
+        font-size: 0.8rem;
+    }
+    
+    .comment-text {
+        font-size: 0.8rem;
+    }
+    
+    .comment-coffee {
+        font-size: 0.7rem;
+    }
+    
+    .add-comment-section {
+        padding: 1.5rem;
+    }
+    
+    .add-comment-section h3 {
+        font-size: 1.3rem;
+    }
+    
+    .comment-form textarea {
+        height: 80px;
+        font-size: 0.8rem;
+        padding: 0.8rem;
+    }
+    
+    .comment-form select {
+        font-size: 0.8rem;
+        padding: 0.8rem;
+    }
+    
+    .submit-comment-btn {
+        padding: 0.7rem 1.2rem;
+        font-size: 0.9rem;
+    }
+    
+    .best-seller-card {
+        margin: 0;
+        max-width: none;
+    }
+    
+    .card-content {
+        padding: 1.2rem;
+    }
+    
+    .card-content h3 {
+        font-size: 1.2rem;
+    }
+    
+    .card-content p {
+        font-size: 0.9rem;
+    }
+    
+    .summary-card {
+        padding: 1.2rem;
+    }
+    
+    .summary-card h3 {
+        font-size: 1rem;
+    }
+    
+    .summary-number {
+        font-size: 1.5rem;
+    }
+    
+    /* Controls */
+    .audio-controls {
+        right: 0.5rem;
+        top: 65%;
+    }
+    
+    .audio-toggle {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .sin-meter {
+        left: 0.5rem;
+        width: 120px;
+        padding: 0.6rem;
+    }
+    
+    .sin-meter-label {
+        font-size: 0.7rem;
+    }
+    
+    .sin-meter-text {
+        font-size: 0.6rem;
+    }
+    
+    /* Cart adjustments */
+    .cart-content {
+        width: 98%;
+        margin: 0.5rem;
+    }
+    
+    .cart-header {
+        padding: 1rem;
+    }
+    
+    .cart-header h3 {
+        font-size: 1.2rem;
+    }
+    
+    .cart-items {
+        padding: 0.8rem 1rem;
+    }
+    
+    .cart-item {
+        padding: 0.8rem 0;
+    }
+    
+    .cart-item-info h4 {
+        font-size: 1rem;
+    }
+    
+    .cart-item-info p {
+        font-size: 0.9rem;
+    }
+    
+    .cart-item-controls button {
+        width: 25px;
+        height: 25px;
+        font-size: 0.8rem;
+    }
+    
+    .cart-footer {
+        padding: 1rem;
+    }
+    
+    .cart-total {
+        font-size: 1rem;
+    }
+    
+    .checkout-btn {
+        padding: 0.7rem 1.2rem;
+        font-size: 0.9rem;
+    }
+    
+    /* Notifications */
+    .claim-notification,
+    .comment-notification {
+        margin: 0.5rem;
+        padding: 0.8rem 1.2rem;
+        font-size: 0.9rem;
+    }
+    
+    /* Quote overlay */
+    .quote-overlay {
+        margin: 0.5rem;
+        padding: 1.2rem;
+    }
+    
+    .quote-text {
+        font-size: 1rem;
+    }
+    
+    .quote-author {
+        font-size: 0.8rem;
+    }
+    
+    /* Whisper modal */
+    .whisper-content {
+        margin: 0.5rem;
+        padding: 1.5rem;
+    }
+    
+    .whisper-content h3 {
+        font-size: 1.3rem;
+    }
+    
+    .whisper-content p {
+        font-size: 0.9rem;
+    }
+    
+    .whisper-content .btn-primary,
+    .whisper-content .btn-secondary {
+        margin: 0.2rem;
+        padding: 0.6rem 1rem;
+        font-size: 0.8rem;
+    }
+}
+
+/* Landscape orientation adjustments */
+@media (max-height: 500px) and (orientation: landscape) {
+    .hero {
+        padding: 1rem 0;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .hero-description {
+        font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .hero-buttons {
+        gap: 1rem;
+    }
+    
+    .btn-primary,
+    .btn-secondary {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    .audio-controls {
+        top: 40%;
+    }
+    
+    .sin-meter {
+        top: 40%;
+    }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .logo,
+    .hero-title,
+    .menu-title,
+    .society-title {
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+/* Print styles */
+@media print {
+    .header,
+    .audio-controls,
+    .sin-meter,
+    .cart-modal,
+    .quote-overlay,
+    .whisper-modal {
+        display: none !important;
+    }
+    
+    body {
+        background: white !important;
+        color: black !important;
+    }
+    
+    .main-content {
+        padding-top: 0 !important;
+    }
+    
+    .hero,
+    .menu-hero,
+    .society-hero {
+        padding: 2rem 0 !important;
+    }
+    
+    .hero-title,
+    .menu-title,
+    .society-title {
+        color: black !important;
+        text-shadow: none !important;
+    }
+    
+    .btn-primary,
+    .btn-secondary {
+        border: 1px solid black !important;
+        background: white !important;
+        color: black !important;
+    }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    .floating-comment {
+        animation: none !important;
+        position: static !important;
+        margin-bottom: 1rem !important;
+    }
+}
+
+/* Dark mode preferences */
+@media (prefers-color-scheme: dark) {
+    /* Already optimized for dark theme */
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+    :root {
+        --antique-gold: #FFD700;
+        --parchment: #FFFFFF;
+        --coffee-light: #CCCCCC;
+    }
+    
+    .menu-card,
+    .best-seller-card,
+    .summary-card {
+        border-width: 2px;
+    }
+    
+    .btn-primary,
+    .btn-secondary {
+        border-width: 2px;
+    }
+}

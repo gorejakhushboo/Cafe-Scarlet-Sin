@@ -1,0 +1,64 @@
+/* ===== Café Scarlet Sin - Page 1 (Home) ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #FDF8F5;
+  color: #3C2A2A;
+  text-align: center;
+}
+
+header {
+  background-color: #7B2D26;
+  color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: #FDF8F5;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #FFD9C0;
+}
+
+.intro {
+  padding: 80px 20px;
+}
+
+.intro h2 {
+  font-size: 2em;
+  color: #7B2D26;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 1.1em;
+  color: #5A3D3D;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #7B2D26;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #A14236;
+  transform: scale(1.05);
+}
